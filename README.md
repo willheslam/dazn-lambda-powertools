@@ -58,7 +58,7 @@ Individually they are useful on their own right, but together they're so much mo
 
 The middlewares capture incoming correlation IDs, and the logger automatically includes them in every log message, and the other clients (HTTP, Kinesis, SNS, etc.) would also automatically forward them on to external systems.
 
-Even if your function doens't do anything with correlation IDs, the tools make sure that it behalves correctly as these correlation IDs flows through it.
+Even if your function doesn't do anything with correlation IDs, the tools make sure that it behaves correctly as these correlation IDs flows through it.
 
 ![](powertools-illustrated.png)
 
